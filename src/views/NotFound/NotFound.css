@@ -1,0 +1,10 @@
+#not-found-img {
+    width: 50%;
+    margin-top: 20px;
+}
+
+#not-found-div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}

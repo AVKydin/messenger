@@ -1,0 +1,42 @@
+.chats-channels-list {
+    grid-row: 2 / 3;
+    grid-column: 1;
+    padding: 20px 3px 20px 7px;
+    text-align: center;
+    background-color: rgba(69, 88, 207, 0.7);
+    border-radius: 5px;
+    color: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.chats {
+    height: calc(100vh - 330px);
+    overflow-y: auto;
+}
+
+.chat-items {
+    position: relative;
+}
+
+.chat-item {
+    background-color: rgba(228, 236, 250, 1);
+    color: black;
+    padding: 6px;
+    border: 1px solid rgba(228, 236, 250, 1);
+    border-radius: 8px;
+    cursor: pointer;
+    margin-right: 5px;
+    box-shadow: rgba(0, 0, 0, 35%) 0px 2px 3px;
+}
+
+.chat-item:hover,
+.chat-item-active {
+    background-color: rgba(243, 214, 121, 1);
+    border: 1px solid rgba(69, 88, 207, 1);
+    padding: 6px;
+    border-radius: 8px;
+    font-weight: bold;
+    color: rgba(69, 88, 207, 1);
+    cursor: pointer;
+    margin-right: 5px;
+}

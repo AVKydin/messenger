@@ -1,0 +1,58 @@
+.channel-container {
+    height: calc(100vh - 160px);
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    position: relative;
+}
+
+.channel-container h2 {
+    margin-top: 0;
+}
+
+.messages-container {
+    overflow-y: auto;
+    width: 90%;
+    margin: 0 auto;
+    height: calc(40vh);
+}
+
+.files-upload{
+    max-height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.file-upload{
+    max-height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.sample-upload {
+    max-width: 50%;
+    max-height:50%;
+    border-radius: 5px;
+}
+
+input[type='file'] {
+    max-width: 163px;
+    padding: 5px;
+}
+
+
+.send-btn,
+.close-btn {
+    margin-left: 15px;
+}
+
+.drag-n-drop {
+    width: 85%;
+    padding: 10px;
+    color: rgba(69, 88, 207, 1);
+    border: 1px dashed rgba(69, 88, 207, 1);
+    border-radius: 10px;
+    margin: 10px 30px;
+    cursor: pointer;
+}

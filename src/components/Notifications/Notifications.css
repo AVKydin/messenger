@@ -1,0 +1,85 @@
+.notif-icon {
+    position: absolute;
+    right: 0.5em;
+    top: 0.2em;
+    color: orange;
+    z-index: 3;
+    font-size: 16pt;
+
+    -webkit-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    -ms-transition: all 0.4s;
+    -o-transition: all 0.4s;
+    transition: all 0.4s;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -webkit-animation-timing-function: ease-in-out;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: 1;
+    -webkit-animation-iteration-count: 1;
+    animation-name: wiggle;
+    -moz-animation-name: wiggle;
+}
+
+.notif-icon:hover {
+    -webkit-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    -ms-transition: all 0.4s;
+    -o-transition: all 0.4s;
+    transition: all 0.4s;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -webkit-animation-timing-function: ease-in-out;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    -webkit-animation-iteration-count: infinite;
+    animation-name: wiggle;
+    -moz-animation-name: wiggle;
+}
+
+@keyframes wiggle {
+    0% {
+        -webkit-transform: translateX(0px);
+        -ms-transform:     translateX(0px);
+        transform:         translateX(0px)
+    }
+    15% {
+        -webkit-transform: translateX(0px);
+        -ms-transform:     translateX(0px);
+        transform:         translateX(0px)
+    }
+    30% {
+        -webkit-transform: rotate(10deg);
+        -ms-transform:     translateX(10deg);
+        transform:         translateX(10deg)
+    }
+    45% {
+        -webkit-transform: rotate(-10deg);
+        -ms-transform:     rotate(-10deg);
+        transform:         rotate(-10deg)
+    }
+    60% {
+        -webkit-transform: rotate(10deg);
+        -ms-transform:     rotate(10deg);
+        transform:         rotate(10deg)
+    }
+    75% {
+        -webkit-transform: rotate(-10deg);
+        -ms-transform:     rotate(-10deg);
+        transform:         rotate(-10deg)
+    }
+    85% {
+        -webkit-transform: rotate(10deg);
+        -ms-transform:     rotate(10deg);
+        transform:         rotate(10deg)
+    }
+    100% {
+        -webkit-transform: translateX(0px);
+        -ms-transform:     translateX(0px);
+        transform:         translateX(0px)
+    }
+}

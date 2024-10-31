@@ -1,0 +1,30 @@
+
+.participants-list {
+    grid-row: 2 / 3;
+    grid-column: 3;
+    padding: 20px 3px 20px 7px;
+    text-align: center;
+    background-color: rgba(69, 88, 207, 0.7);
+    border-radius: 5px;
+    color: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    height: calc(100vh - 170px);
+    max-height: calc(100vh - 170px);
+    position: relative;
+}
+
+.participants {
+    height: calc(100vh - 100px);
+    max-height: calc(100vh - 390px);
+    overflow-y: auto;
+}
+
+.manage-participants-btns {
+    position: absolute;
+    bottom: 20px;
+    width: 96%;
+}
+
+.add-btn {
+    margin-bottom: 10px;
+}

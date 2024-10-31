@@ -1,0 +1,46 @@
+.user-box {
+    display: flex;
+    width: auto;
+    margin: 10px;
+    font-size: 14px;
+    border-radius: 10px;
+    background-color: rgba(236, 243, 252, 0.93);
+    color: black;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 2px 3px;
+    position: relative;
+    cursor: default;
+}
+
+.user-avatar {
+    height: 33px;
+    width: 33px;
+    border-radius: 50%;
+    align-self: center;
+    vertical-align: middle;
+    margin: 5px;
+    object-fit: cover;
+}
+
+.username-button {
+    padding: 0px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+}
+
+.search-users {
+    margin-bottom: 25px;
+}
+
+#add-remove-user-btn {
+    border: none;
+    background: none;
+    padding: 4px;
+    margin-right: 4px;
+}
+
+#add-remove-user-btn img {
+    height: 25px;
+    width: 25px;
+}

@@ -1,0 +1,41 @@
+.message-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 1em;
+    position: absolute;
+    bottom: 0;
+    width: 96.6%;
+}
+
+.message-textarea {
+    border: 1px solid rgba(69, 88, 207, 1);
+    border-radius: 10px;
+    padding: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+    background-color: rgba(245, 247, 251, 1);
+    width: 50em;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+}
+
+.send-btn,
+.close-btn{
+    background-color: rgba(243, 214, 121, 1);
+    height: 51px;
+    min-width: 51px;
+    padding: 10px;
+    margin: 0;
+    border: none;
+    border-radius: 50%;
+    color: rgba(69, 88, 207, 1);
+    transition: border-color 0.5s, background-color 0.5s, color 0.5s;
+}
+
+.send-btn:hover,
+.close-btn:hover{
+    background-color: white;
+    border: 1px solid rgba(69, 88, 207, 1);
+    color: rgba(69, 88, 207, 1);
+}

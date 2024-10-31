@@ -1,0 +1,62 @@
+#login-div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#login-form {
+    width: 275px;
+    height: fit-content;
+    background-color: white;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+    border-radius: 20px;
+    margin-top: 70px;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.35) 0 5px 15px;
+
+    animation-name: fade-in;
+    animation-duration: 0.5s;
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-fill-mode: none;
+}
+
+#login-form > input {
+    border: 1px solid rgba(69, 88, 207, 1);
+    border-radius: 5px;
+    background-color: rgba(245, 247, 251, 1);
+    padding: 2px;
+}
+
+#sign-in {
+    color: rgba(69, 88, 207, 1);
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#sign-in-button {
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid;
+    background-color: rgba(69, 88, 207, 1);
+    color: white;
+}
+
+#go-back-register-btn {
+    border: none;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: underline;
+    background-color: white;
+    margin-top:7px;
+    float:right;
+}
+
+#dont-have-acc {
+    padding: 0;
+    margin-top: 20px;
+    float:left;
+}

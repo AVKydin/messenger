@@ -1,0 +1,65 @@
+#register-form {
+    width: 300px;
+    height: fit-content;
+    background-color: white;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 20px;
+    border-radius: 20px;
+    margin-top: 30px;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.35) 0 5px 15px;
+
+    animation-name: fade-in;
+    animation-duration: 0.5s;
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-fill-mode: none;
+}
+
+#register-form > input {
+    border: 1px solid rgba(69, 88, 207, 1);
+    border-radius: 5px;
+    background-color: rgba(245, 247, 251, 1);
+    padding: 2px;
+}
+
+#register-div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#sign-up {
+    color: rgba(69, 88, 207, 1);
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+#sign-up-btn {
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid;
+    background-color: rgba(69, 88, 207, 1);
+    color: white;
+}
+
+#sign-in-btn {
+    border: none;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: underline;
+    background-color: white;
+    color: rgba(69, 88, 207, 1);
+}
+
+.stats {
+    margin:0;
+}
+
+#already-have-acc {
+    margin: 7px;
+}
