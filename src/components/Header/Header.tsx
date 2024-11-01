@@ -78,14 +78,16 @@ const Header = (): JSX.Element => {
     return (
         <>
             <header id='header'>
-
-                <button onClick={handleLogOut} className='header-btn' id='logout-btn'>Log out</button>
+                <h2 className='messenger'>Messenger</h2>
                 {width < 1050 && user &&
                     <button className='send-btn' value='' onClick={() => setIsNavMenu(!isNavMenu)}>
                         <i className="fa-solid fa-bars  "></i>
                     </button>}
 
                 {user ?
+                    <>
+                        <button onClick={handleLogOut} className='header-btn' id='logout-btn'>Log out</button>
+
 
                     <div className='header-avatar'>
                         <div style={{textDecoration: 'none'}}>
@@ -107,8 +109,10 @@ const Header = (): JSX.Element => {
                             </div>
                         }
 
-                    </div> :
+                    </div>
+                    </> :
                     null}
+
             </header>
             <ToastContainer
                 autoClose={2000}

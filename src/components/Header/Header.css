@@ -9,6 +9,11 @@
     padding-right: 30px;
 }
 
+.messenger{
+    position: absolute;
+    right: 46%;
+}
+
 .header-avatar {
     position: relative;
 }
